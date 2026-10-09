@@ -1,0 +1,40 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "index.html",
+    "distDir": "."
+  },
+  "package": {
+    "productName": "CSM_OPEN_SOURCE_REACTOR_MODEL",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "gg.anticloud.csm_open_source_reactor_model",
+      "category": "DeveloperTool",
+      "shortDescription": "CSM_OPEN_SOURCE_REACTOR_MODEL \u2014 Anticloud Sovereign AI Infrastructure",
+      "longDescription": "Installer for CSM_OPEN_SOURCE_REACTOR_MODEL, part of the Anticloud sovereign AI infrastructure stack"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "CSM_OPEN_SOURCE_REACTOR_MODEL Installer",
+        "width": 900,
+        "height": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}
